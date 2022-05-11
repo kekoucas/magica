@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto LVL 3</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<!-- após linkarmos noss css ao nosso html acima, criamos uma div com um formulario no qual vai suportar nossos inputs do tipo text e number para receber a
+entrada de nosso nome e idade para trabalharmos no nosso arquivo JS, sem seguida outro formulario para recebermos as informações para os calculos que vão
+ser executados na nossa aplicação, usamos classe para facilicar sua seleção no css, labels para nomea-los e seus ids para sua relação com o arquivo JS e CSS
+depois criamos os P designamos seus ids e o deixamos em uma div para atribuirmos nosso resultado. criamos o botão na lina 45 e logo em seguida linkamos
+nosso script para relação e interação do JS com a DOM -->
+
+<body>
+    <div>
+        <form id="form1">
+            <label for="nome1">Seu nome: </label><input id="nome1" type="text">
+            <label for="idade2">Sua idade: </label><input id="idade1" type="number">
+        </form>
+    </div>
+    <div>
+        <form id="form2">
+           <p class="p"><label for="Raio_circ">Raio do circulo: </label><input id="Raio_circ" type="number"></p>
+           <p class="p"><label for="Base_cub">Base de um cubo: </label><input id="Base_cub" type="number"></p>
+           <p class="p"><label for="Base_trap">Base menor de um trapézio: </label><input id="Bmin_trap" type="number"></p>
+           <p class="p"><label for="Base_trap">Base maior de um trapézio: </label><input id="Bmax_trap" type="number"></p>
+           <p class="p"><label for="Alt_trap">Altura de um trapézio: </label><input id="Alt_trap" type="number"></p>
+        </form>
+    </div>
+    <div id="results">
+       <p id="idade"></p>
+       <p id="rai_circ_result"></p>
+       <p id="rai_area_result"></p>
+       <p id="area_result"></p>
+       <p id="volcib_result"></p>
+       <p id="areaT_result"></p>
+       <p id="areaL_result"></p>
+       <p id="atrap_result"></p>
+       <p id="sorte_result"></p>
+    </div>
+
+
+<button id="btn">Magica!</button>
+<script src="index.js"></script>
+</body>
+</html>

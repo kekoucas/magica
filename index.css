@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: white;
+}
+#form1{
+    margin: auto;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 5vh;
+    height: 5vh;
+    size: 5vh;
+    width: 10vw;
+}
+#form2{
+    margin: auto;
+    text-align: center;
+    padding: 5vh;
+}
+.p{
+    background-color:red;
+    height: 30%;
+    size: 30%;
+    width: 30%;
+    margin: auto;
+    padding: 1%;
+    color: black;
+}
+#btn{
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+#results{
+    text-align: center;
+}
